@@ -1,3 +1,7 @@
+---
+layout: default
+title: Miguel Ángel Guerrero
+---
 # Miguel Ángel Guerrero Benítez 
 _Curriculum vitae_
 ## Acerca de
