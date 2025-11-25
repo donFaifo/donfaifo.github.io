@@ -19,7 +19,7 @@
         "text": "Aquí puedes consultar mi currículum y ver los trabajos en los que he estado.",
         "link": "jobs.html"
     },
-    "others": {
+    "projects": {
         "title": "Proyectos personales",
         "text": "Otros proyectos que he realizado por mi cuenta.",
         "link": "projects.html"
