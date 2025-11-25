@@ -1,0 +1,27 @@
+{
+    "home": {
+        "title": "Inicio",
+        "text": "Página de inicio",
+        "link": "index.html"
+    },
+    "about": {
+        "title": "Acerca de mí",
+        "text": "Para conocerme un poco mejor, pincha aquí...",
+        "link": "about.html"
+    },
+    "training": {
+        "title": "Formación",
+        "text": "Mi currículum académico y cursos realizados. Consulta todo lo que se hacer.",
+        "link": "training.html"
+    },
+    "jobs": {
+        "title": "Experiencia laboral",
+        "text": "Aquí puedes consultar mi currículum y ver los trabajos en los que he estado.",
+        "link": "jobs.html"
+    },
+    "others": {
+        "title": "Proyectos personales",
+        "text": "Otros proyectos que he realizado por mi cuenta.",
+        "link": "projects.html"
+    }
+}

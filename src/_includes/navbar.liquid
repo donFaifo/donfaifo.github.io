@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="{{ pages_data.home.link }}">Miguel Ángel Guerrero</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item {% if title == pages_data.home.title %} active {% endif %}">
+                    <a class="nav-link" href="{{ pages_data.home.link }}">{{ pages_data.home.title }}<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item {% if title == pages_data.about.title %} active {% endif %}">
+                    <a class="nav-link" href="{{ pages_data.about.link }}">{{ pages_data.about.title }}<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item {% if title == pages_data.training.title %} active {% endif %}">
+                    <a class="nav-link" href="{{ pages_data.training.link }}">{{ pages_data.training.title }}</a>
+                </li>
+                <li class="nav-item {% if title == pages_data.jobs.title %} active {% endif %}">
+                    <a class="nav-link" href="{{ pages_data.jobs.link }}">{{ pages_data.jobs.title  }}</a>
+                </li>
+                <li class="nav-item {% if title == pages_data.others.title %} active {% endif %}">
+                    <a class="nav-link" href="{{ pages_data.others.link }}">{{ pages_data.others.title }}</a>
+                </li>
+            </ul>
+        </div>      
+    </div>
+    
+</nav>
